@@ -6,7 +6,7 @@ const Navbar = ({ searchText,setSearchText }) => {
   const history = useHistory()
 
 const updateSearchText = (e) =>{
-  history.push('/search')
+  history.push('/moviebrowser/search')
   setSearchText(e.target.value);
  
 }
