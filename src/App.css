@@ -20,3 +20,18 @@ background-size: cover;
 background-position: center center;
 opacity: 0.3;
 }
+
+@media (max-width:780px) {
+  .card-title, h5{
+      position: relative;
+    display: none;
+  }  
+
+  
+.btn{
+    position: absolute;
+    font-size: 1px;
+    margin-right:0px;
+    margin-left: -15px;
+}
+}

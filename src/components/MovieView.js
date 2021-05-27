@@ -31,7 +31,7 @@ const MovieView = () => {
       return (
         <div>
           <Hero text={movieDetails.original_title} backdrop={backdropUrl} />
-          <div className="container my-5">
+          <div className="container  my-5">
             <div className="row">
               <div className="col-md-3">
                 <img
