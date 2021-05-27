@@ -22,7 +22,7 @@ const MovieView = () => {
 
   function renderMovieDetails() {
     if (isLoading) {
-      return <Hero text="Loading..." />;
+      return <Hero text="Ładowanie..." />;
     }
     if (movieDetails) {
       const posterPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`;

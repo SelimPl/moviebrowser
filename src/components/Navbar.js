@@ -14,9 +14,9 @@ const updateSearchText = (e) =>{
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <div className="navbar-brand">
           Przegladarka filmów
-        </Link>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
